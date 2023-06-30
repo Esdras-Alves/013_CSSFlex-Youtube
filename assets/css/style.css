@@ -8,7 +8,7 @@ body {
 
 .container-header {
     display: flex;
-    width: 1830px;
+    width: inherit;
     height: 56px;
     padding: 0px 24px;
     justify-content: space-between;
