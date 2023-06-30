@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #F8F8F8;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.container-header {
+    display: flex;
+    /*width: 1440px;*/
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    margin: auto;
+}
+
+.left {
+    display: flex;
+    width: 146px;
+    height: 24px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-left {
+    flex-shrink: 0;
+}
+
+.youtube {
+    width: 90px;
+    height: 20px;
+    background: cover no-repeat;
+}
+
+.center {
+    display: flex;
+    width: 404px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.retangulo-1 {
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    background: #FFF;
+}
+
+.retangulo-2 {
+    display: flex;
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    background-image: url('../images/avatar.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-main {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 28px 0 0 80px;
+    width: 1162px;
+    /*height: 746px;*/
+}
+
+.video-img {
+    width: 1128px;
+    height: 635px;
+    background-image: url('../images/image-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-actions {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    /*gap: 42px;*/
+}
+
+.channel-infos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.channel-avatar {
+    width: 42px;
+    height: 42px;
+}
+
+.dio-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.button button {
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+    border: 0;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.actions-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.like {
+    width: 63px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deslike {
+    display: flex;
+    width: 100px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.share {
+    width: 115px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download {
+    width: 95px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visualization {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.description {
+    width: 660px;
+    color: #515151;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-side {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 28px 80px 0 0;
+}
+
+.block {
+    display: flex;
+    width: 372px;
+    gap: 16px;
+    height: 90px;
+    align-items: flex-start;
+}
+
+.thumb-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text-1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-2 {
+    font-size: 12px;
+    font-weight: 400;
+    white-space: pre;
+}
