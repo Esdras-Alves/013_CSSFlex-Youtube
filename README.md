@@ -1,5 +1,5 @@
 # 013_CSSDesafio02-Youtube
-Desafio da Formação CSS Developer da DIO: Clonando a Página do Youtube com CSS.
+Desafio da Formação CSS Developer da DIO: Clonando a Página do Youtube com CSS com foco na prática do display flex.
 
 <h2>🛠 Tecnologias Utilizadas</h2>
 
